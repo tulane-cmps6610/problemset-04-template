@@ -1,6 +1,6 @@
 # CMPS 6610 Problem Set 04
 
-In this lab, we will xx. 
+In this lab, we will look at the greedy and dynamic programming paradigms. 
 
 To complete this lab, follow the instructions in [problemset-04.md](problemset-04.md) ([PDF version](problemset-04.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
 
