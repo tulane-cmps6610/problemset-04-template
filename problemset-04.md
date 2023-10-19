@@ -49,10 +49,20 @@ consistent trend? If so, what is it?
 
 **enter answer in `answers.md`**
 
+## Part 2: Binary Heaps
 
-## Part 2: Making Change
+**2a)** Give a method to construct a binary min-heap in $O(n)$
+work. Hint: Given an array $A$ of elements, consider the implicit
+representation as an
+almost-complete binary tree and show how to achieve the heap
+property for this tree with $O(n)$ work.
 
-Now that the pandemic is over and you decide to take a much needed vacation. You arrive in a city called Geometrica, and head to the bank to
+**2b)** What is the span of your approach?
+
+
+## Part 3: Making Change
+
+After completing a tortuous semester of Algorithms, you decide to take a much needed vacation. You arrive in a city called Geometrica, and head to the bank to
 exchange $N$ dollars for local currency. In Geometrica they have a
 currency that is 1-1 with U.S. Dollars, but they only have
 coins. Moreover the coins are in
@@ -62,24 +72,24 @@ such strange denominations. You think about it a while, and because
 you had such a good Algorithms instructor, you realize that there is a
 very clever reason. 
 
-**2a)** Given a $N$ dollars, state a greedy algorithm for producing
+**3a)** Given a $N$ dollars, state a greedy algorithm for producing
 as few coins as possible that sum to $N$.
 
 **enter answer in `answers.md`**
 
 
-**2b)** Prove that this algorithm is optimal by proving the greedy
+**3b)** Prove that this algorithm is optimal by proving the greedy
   choice and optimal substructure properties.
 
 **enter answer in `answers.md`**
 
 
-**2c)** What is the work and span of your algorithm?
+**3c)** What is the work and span of your algorithm?
 
 **enter answer in `answers.md`**
 
 
-## Part 3: Making Change Again
+## Part 4: Making Change Again
 
 You get tired of Geometrica and travel to the nearby town of
 Fortuito. While Fortuito also has a 1-1 exchange rate to the US
@@ -90,14 +100,14 @@ even make change. So you wonder, given $N$ dollars is it possible to
 even make change? If so, how can it be done with as few coins as
 possible?
 
-**2a)** You realize the greedy algorithm you devised above doesn't
+**4a)** You realize the greedy algorithm you devised above doesn't
   work in Fortuito. Give a simple counterexample that shows that the
   greedy algorithm does not produce the fewest number of coins.
   
 **enter answer in `answers.md`**
 
 
-**2b)** Since you paid attention in Algorithms class, you realize that
+**4b)** Since you paid attention in Algorithms class, you realize that
   while this problem does not have the greedy choice property it does
   have an optimal substructure property. State and prove this
   property.
@@ -105,7 +115,7 @@ possible?
 **enter answer in `answers.md`**
 
 
-**2c)** Use this optimal substructure property to design a
+**4c)** Use this optimal substructure property to design a
   dynamic programming algorithm for this problem. If you used top-down
   or bottom-up memoization to avoid recomputing solutions to
   subproblems, what is the work and span of your approach?
@@ -113,7 +123,9 @@ possible?
 **enter answer in `answers.md`**
 
 
-## Part 4: Edit Distance
+
+
+## **Part 5: Edit Distance
 
 In class we proved an optimal substructure property for the **Edit
 Distance** problem. This allowed us to implement a simple recursive
@@ -123,7 +135,7 @@ substitutions, develop a top-down memoization scheme
 and then implement a way to visualize the optimal sequence of edits.
 
 
-**4a)** The code for `MED` from the course materials is provided as a
+**5a)** The code for `MED` from the course materials is provided as a
   starting point in `main.py.` We will consider a slightly different
   version of the edit distance problem which allows for insertions,
   deletions and substitutions. We will assume that insertions,
@@ -131,11 +143,11 @@ and then implement a way to visualize the optimal sequence of edits.
   optimal substructure property for this version of the edit distance problem and modify `MED` accordingly. 
 
 
-**4b)** Now implement `fast_MED`, a **top-down**
+**5b)** Now implement `fast_MED`, a **top-down**
   memoized version of `MED`. Test your implementation code using `test_MED`.
 
 
-**4c)** Now that you have implemented an efficient algorithm for
+**5c)** Now that you have implemented an efficient algorithm for
   computing edit distance, let's turn to the problem of identifying
   the actual edits between two sequences.
 
