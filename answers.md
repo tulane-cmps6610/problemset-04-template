@@ -4,7 +4,7 @@
 **Name:**_________________________
 
 
-Place all written answers from `assignment-05.md` here for easier grading.
+Place all written answers from `problemset-04.md` here for easier grading.
 
 
 
@@ -61,3 +61,15 @@ fields.c    |                     |                |
 
 
 - **4c.**
+
+
+- **5a.**
+
+
+
+- **5b.**
+
+
+
+
+- **5c.**
