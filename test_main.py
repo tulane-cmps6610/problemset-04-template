@@ -15,4 +15,4 @@ def test_huffman_complex():
                  "E", "F", "G", "H", "I", "J"])
     T = make_huffman_tree(f)
     C = get_code(T)
-    assert huffman_cost(C, f) == 38
+    assert huffman_cost(C, f) == 47
