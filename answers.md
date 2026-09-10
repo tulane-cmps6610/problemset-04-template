@@ -22,54 +22,51 @@ fields.c    |                     |                |
 
 
 
-- **1d.**
+
+- **2a.** Construct a binary min-heap algorithm
 
 
 
 
-
-- **2a.**
-
-
-
-
-- **2b.**
+- **2b.** Span of your algorithm
 
 
 
 
-- **3a.**
+- **3a.** Greedy algorithm for making change
 
 
 
-- **3b.**
-
-
-
-
-- **3c.**
-
-
-
-- **4a.**
-
-
-
-- **4b.**
+- **3b.** Optimality proof
 
 
 
 
-- **4c.**
-
-
-- **5a.**
+- **3c.** Work and span of your algorithm
 
 
 
-- **5b.**
+- **4a.** Fortuito counter example proof
+
+
+
+- **4b.** Optimal substructure property
 
 
 
 
-- **5c.**
+- **4c.** Fortuito dynamic programming algorithm
+
+
+
+
+- **5a.** Weighted task selection: Optimal substructure?
+
+
+
+- **5b.** Does the greedy choice property hold?
+
+
+
+
+- **5c.** Dynamic programming algorithm for Weighted Task Selection

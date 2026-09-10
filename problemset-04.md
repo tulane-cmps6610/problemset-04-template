@@ -57,8 +57,11 @@ representation as an
 almost-complete binary tree and show how to achieve the heap
 property for this tree with $O(n)$ work.
 
+**enter answer in `answers.md`**
+
 **2b)** What is the span of your approach?
 
+**enter answer in `answers.md`**
 
 ## Part 3: Making Change
 
