@@ -42,7 +42,7 @@ consistent trend? If so, what is it?
 **enter answer in `answers.md`**
 
 
-**1d)** Suppose that we used Huffman coding on a document with alphabet $\Sigma$ in
+**1e)** Suppose that we used Huffman coding on a document with alphabet $\Sigma$ in
   which every character had the same frequency. What is the expected
   cost of a Huffman encoding for the document? Is it consistent across
   documents?
@@ -65,7 +65,7 @@ property for this tree with $O(n)$ work.
 
 ## Part 3: Making Change
 
-After completing a tortuous semester of Algorithms, you decide to take a much needed vacation. You arrive in a city called Geometrica, and head to the bank to
+After completing a challenging but fulfilling semester of Algorithms, you decide to take a much needed vacation. You arrive in a city called Geometrica, and head to the bank to
 exchange $N$ dollars for local currency. In Geometrica they have a
 currency that is 1-1 with U.S. Dollars, but they only have
 coins. Moreover the coins are in
