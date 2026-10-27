@@ -18,7 +18,7 @@ empirical performance on a dataset of 5 text files.
   `main.py`. Compute cost for a fixed length encoding for each text
   file.
 
-**1b)** Complete the implementation of Huffman coding in
+**1b) (10 pts)** Complete the implementation of Huffman coding in
   `make_huffman_tree`. Note that we manipulate binary trees in the
   priority queue using the object `TreeNode`. Moreover, once the tree
   is constructed, we must compute the actual encodings by traversing
@@ -33,7 +33,7 @@ empirical performance on a dataset of 5 text files.
 **1c)** Now implement `huffman_cost` to compute the cost of a Huffman
   encoding for a character set with given frequencies.
 
-**1d)** Test your implementation of Huffman coding on the 5 given text
+**1d) (3 pts)** Test your implementation of Huffman coding on the 5 given text
 files, and fill out a table of the encoding cost of each file for
 fixed-length and Huffman. Fill out a final column which gives the
 ratio of Huffman coding cost to fixed-length coding cost. Do you see a
@@ -42,7 +42,7 @@ consistent trend? If so, what is it?
 **enter answer in `answers.md`**
 
 
-**1e)** Suppose that we used Huffman coding on a document with alphabet $\Sigma$ in
+**1e) (3 pts)** Suppose that we used Huffman coding on a document with alphabet $\Sigma$ in
   which every character had the same frequency. What is the expected
   cost of a Huffman encoding for the document? Is it consistent across
   documents?
@@ -51,7 +51,7 @@ consistent trend? If so, what is it?
 
 ## Part 2: Binary Heaps
 
-**2a)** Give a method to construct a binary min-heap in $O(n)$
+**2a) (5 pts)** Give a method to construct a binary min-heap in $O(n)$
 work. Hint: Given an array $A$ of elements, consider the implicit
 representation as an
 almost-complete binary tree and show how to achieve the heap
@@ -59,7 +59,7 @@ property for this tree with $O(n)$ work.
 
 **enter answer in `answers.md`**
 
-**2b)** What is the span of your approach?
+**2b) (2 pts)** What is the span of your approach?
 
 **enter answer in `answers.md`**
 
@@ -75,19 +75,19 @@ such strange denominations. You think about it a while, and because
 you had such a good Algorithms instructor, you realize that there is a
 very clever reason. 
 
-**3a)** Given a $N$ dollars, state a greedy algorithm for producing
+**3a) (3 pts)** Given a $N$ dollars, state a greedy algorithm for producing
 as few coins as possible that sum to $N$.
 
 **enter answer in `answers.md`**
 
 
-**3b)** Prove that this algorithm is optimal by proving the greedy
+**3b) (3 pts)** Prove that this algorithm is optimal by proving the greedy
   choice and optimal substructure properties.
 
 **enter answer in `answers.md`**
 
 
-**3c)** What is the work and span of your algorithm?
+**3c) (2 pts)** What is the work and span of your algorithm?
 
 **enter answer in `answers.md`**
 
@@ -103,14 +103,14 @@ even make change. So you wonder, given $N$ dollars is it possible to
 even make change? If so, how can it be done with as few coins as
 possible?
 
-**4a)** You realize the greedy algorithm you devised above doesn't
+**4a) (2 pts)** You realize the greedy algorithm you devised above doesn't
   work in Fortuito. Give a simple counterexample that shows that the
   greedy algorithm does not produce the fewest number of coins.
   
 **enter answer in `answers.md`**
 
 
-**4b)** Since you paid attention in Algorithms class, you realize that
+**4b) (3 pts)** Since you paid attention in Algorithms class, you realize that
   while this problem does not have the greedy choice property it does
   have an optimal substructure property. State and prove this
   property.
@@ -118,7 +118,7 @@ possible?
 **enter answer in `answers.md`**
 
 
-**4c)** Use this optimal substructure property to design a
+**4c) (2 pts)** Use this optimal substructure property to design a
   dynamic programming algorithm for this problem. If you used top-down
   or bottom-up memoization to avoid recomputing solutions to
   subproblems, what is the work and span of your approach?
@@ -136,14 +136,14 @@ each task $a_i$  has $(s_i, f_i, v_i)$, with start and finish times as
 well as a value for completion. The goal now is to identify a set of
 tasks with maximum value. 
 
-**5a)** Does the optimal substructure property hold for weighted task
+**5a) (4 pts)** Does the optimal substructure property hold for weighted task
 selection? If so, prove it. If not, give a counterexample.
 
   
 **enter answer in `answers.md`**
 
 
-**5b)** Does the greedy choice property hold for this problem? If so,
+**5b) (4 pts)** Does the greedy choice property hold for this problem? If so,
 define a greedy criterion and prove that it satisfies the greedy
 choice property. If you cannot, find at least two counterexamples of greedy
 criteria that fail to achieve an optimal solution. 
@@ -151,7 +151,7 @@ criteria that fail to achieve an optimal solution.
 **enter answer in `answers.md`**
 
 
-**5c)** Use the optimal substructure property of this problem to design a
+**5c) (4 pts)** Use the optimal substructure property of this problem to design a
   dynamic programming algorithm for this problem. Derive the work and span of your approach.
 
 **enter answer in `answers.md`**
